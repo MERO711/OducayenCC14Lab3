@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+img {
+    max-width: fit-content;
+    width: 100%;
+    border: 5px solid white;
+}
