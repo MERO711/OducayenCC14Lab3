@@ -1,19 +1,25 @@
+/* Black and white color scheme */
 body {
     background-color: black;
     color: white;
 }
 
-.container {
+/* Horizontal and text centering of the Div elements */
+.content {
     width: 50%;
     margin-left: 25%;
-    margin-top: 10rem;
+    margin-top: 5rem;
     text-align: center;
 }
 
-h1 {
+/* Proper main text font, size and casing */
+.content h1 {
+    font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
+    font-size: 2.8rem;
 }
 
+/* Scaling image sizes and border */
 img {
     max-width: fit-content;
     width: 100%;
